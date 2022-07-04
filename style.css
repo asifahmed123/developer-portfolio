@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .og-color {
     color: orange;
 }
@@ -43,4 +47,32 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-item {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#Features-of-bugatti {
+    border-left: 7px solid tomato;
+}
+
+#overview-of-bugatti {
+    border-left: 7px solid blueviolet;
+}
+
+footer p {
+    text-align: center;
 }
